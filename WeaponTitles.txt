@@ -1,0 +1,117 @@
+50 руб   StatTrak™ SSG 08 | Abyss (Field-Tested)
+float=0.3598475754261017 
+Evil Geniuses | Stockholm 2021
+Flickshot
+
+49 руб   StatTrak™ P250 | Ripple (Factory New)
+float=0.020770655944943428 
+Karsa | Boston 2018
+
+50 руб   AWP | Acheron (Field-Tested)
+float=0.16525599360466003 
+FaZe (Foil) | 2020 RMR
+G2 | 2020 RMR
+
+43 руб   StatTrak™ Glock-18 | Sacrifice (Field-Tested)
+float=0.28564614057540894 
+Perfecto | Stockholm 2021
+
+46 руб   StatTrak™ Glock-18 | Off World (Minimal Wear)
+float=0.111821249127388 
+Boombl4 (Holo) | Stockholm 2021
+
+47 руб   Glock-18 | Moonrise (Minimal Wear)
+float=0.11145689338445663 
+Surf's Up
+
+47 руб   Glock-18 | Moonrise (Minimal Wear)
+float=0.09550648927688599 
+Boombl4 | Stockholm 2021
+
+47 руб   Glock-18 | Moonrise (Minimal Wear)
+float=0.1299239844083786 
+Jack
+
+49 руб   StatTrak™ CZ75-Auto | Tacticat (Battle-Scarred)
+float=0.65354323387146 
+Boom | 2020 RMR
+
+48 руб   StatTrak™ Desert Eagle | Bronze Deco (Field-Tested)
+float=0.18203288316726685 
+b1t | Stockholm 2021
+
+65 руб   StatTrak™ Glock-18 | Moonrise (Field-Tested)
+float=0.160111665725708 
+ESPADA (Holo) | 2020 RMR
+
+65 руб   StatTrak™ Glock-18 | Moonrise (Field-Tested)
+float=0.20631058514118195 
+Gold Nova (Holo)
+
+62 руб   AWP | Phobos (Field-Tested)
+float=0.3579212725162506 
+Natus Vincere | 2020 RMR
+
+62 руб   AWP | Phobos (Field-Tested)
+float=0.326064795255661 
+Spirit (Holo) | 2020 RMR
+Vitality (Holo) | 2020 RMR
+
+65 руб   StatTrak™ M4A4 | Magnesium (Minimal Wear)
+float=0.12708932161331177 
+shox | Berlin 2019
+
+65 руб   StatTrak™ M4A4 | Magnesium (Minimal Wear)
+float=0.12224648892879486 
+Combine Helmet
+
+63 руб   AWP | Phobos (Field-Tested)
+float=0.15621411800384521 
+Heroic | 2020 RMR
+
+63 руб   AWP | Phobos (Field-Tested)
+float=0.16921080648899078 
+Natus Vincere | Katowice 2019
+
+61 руб   USP-S | Check Engine (Field-Tested)
+float=0.2289581298828125 
+Heroic | 2020 RMR
+Heroic | 2020 RMR
+Heroic | 2020 RMR
+Heroic | 2020 RMR
+
+64 руб   AWP | Phobos (Field-Tested)
+float=0.17780430614948273 
+Boombl4 | Stockholm 2021
+Coiled Strike (Holo)
+
+64 руб   AWP | Phobos (Field-Tested)
+float=0.234160378575325 
+FURIA | Stockholm 2021
+
+65 руб   StatTrak™ P90 | Off World (Minimal Wear)
+float=0.12089173495769501 
+Gutted
+
+62 руб   Desert Eagle | Urban Rubble (Battle-Scarred)
+float=0.47799670696258545 
+tiziaN | Katowice 2019
+Kaze | Katowice 2019
+JaCkz | Katowice 2019
+
+65 руб   AWP | Phobos (Field-Tested)
+float=0.19138240814208984 
+Stone Scales
+
+65 руб   AWP | Phobos (Field-Tested)
+float=0.21673880517482758 
+100 Thieves | 2020 RMR
+Sherry
+
+62 руб   AWP | Exoskeleton (Field-Tested)
+float=0.28980129957199097 
+Vitality (Holo) | 2020 RMR
+Vitality (Holo) | 2020 RMR
+Vitality (Holo) | 2020 RMR
+GODSENT | 2020 RMR
+
