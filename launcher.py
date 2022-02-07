@@ -3,6 +3,7 @@ import requests
 import json
 import csv
 import win10toast
+from tkinter import *
 
 #https://steamcommunity.com/market/priceoverview/?appid=730&country=RU&currency=5&market_hash_name=Sticker%20%7C%20Purple%20Cyclawps
 
@@ -13,9 +14,9 @@ ua = UserAgent()
 priceFromTo = [100,150],[150,200],[250,300],[300,350],[350,400]
 min_total_sticker = 400
 
-def notify(skin, skin_price, sTotal):
+def notify(skin = "Example", skin_price = "123", sTotal = "123"):
     toast = win10toast.ToastNotifier()
-    notification = toast.show_toast(title=f"{skin}", msg=f"Цена скина = {skin_price}  руб.\nЦена наклеек = {sTotal} руб.", duration = 10)
+    notification = toast.show_toast(title=f"{skin}", msg=f"Цена скина = {skin_price}  руб.\nЦена наклеек = {sTotal} руб.", duration = 5)
 
 
 def collect_data(priceFrom, priceTo):
@@ -35,9 +36,6 @@ def collect_data(priceFrom, priceTo):
     # start work with json text
     data = response_json
     objects = data.get('objects')
-
-    # open price table
-    
 
     # print information about items
     for i in objects:
@@ -63,14 +61,6 @@ def main():
     clearWeaponTitles()
     for i,j in priceFromTo:
         collect_data(i,j)
-    # for i,j in [2500,2600],[2600,2700],[2700,2800]:
-    #     collect_data(i,j)
-    # for i,j in [2000,2100],[2100,2200],[2200,2300]:
-    #     collect_data(i,j)
-    # for i,j in [2800,2900],[3000,3100],[3100,3200]:
-    #     collect_data(i,j)
-    # for i,j in [3200,3300],[3300,3400],[3400,3500]:
-    #     collect_data(i,j)
 
 # function to clear saved info in Weapon Titles
 def clearWeaponTitles():
@@ -78,4 +68,36 @@ def clearWeaponTitles():
         file.write('')
 
 if __name__ == "__main__":
+
+    #creat Menu
+    root = Tk()
+    root.title("Dmarket Helper")
+    root.geometry("1280x720")
+    root.resizable(width = False, height = False)
+
+    #Background
+    root.image = PhotoImage(file='D:\\New Unity Project\\Assets\\Dmarket Bot\\img\\dmarket.png')
+    root.iconbitmap('D:\\New Unity Project\\Assets\\Dmarket Bot\\img\\dmarket_logo.ico')
+    bg_logo = Label(root, image=root.image)
+    bg_logo.grid(row=0, column=0)
+
+    mainmenu = Menu(root)
+    root.config(menu= mainmenu)
+
+    # # Top menu
+    # file_menu = Menu(mainmenu, tearoff=0)
+    # file_menu.add_command(label = "Change price")
+    # file_menu.add_command(label = "Exit")
+
+    # notification_menu = Menu(mainmenu, tearoff=0)
+    # notification_menu.add_command(label = "On")
+    # notification_menu.add_command(label = "Off") 
+
+    # mainmenu.add_cascade(label = "Settings", menu = file_menu)
+    # mainmenu.add_cascade(label = "Notification", menu = notification_menu)
+    
+
+    root.mainloop()
+
+
     main()
