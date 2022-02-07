@@ -102,10 +102,10 @@ if __name__ == "__main__":
     message_entry2.place(relx=.55, rely=.85, anchor="c")
 
     butt = Button(root, text="Search", bg="#C9ACAE")
-    butt.place(relx=0.48, rely=0.87)
+    butt.place(relx=0.48, rely=0.91)
     butt.config(command=main)
     butt2 = Button(root, text="Set Price", bg="#C9ACAE")
-    butt2.place(relx=0.48, rely=0.91)
+    butt2.place(relx=0.48, rely=0.87)
     butt2.config(command=getPp)
 
     # Input price from - to
