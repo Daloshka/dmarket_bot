@@ -13,8 +13,8 @@ ua = UserAgent()
 def skin_prices(priceFrom=100,priceTo=3000):
     priceFromTo = []
     changedPrice = priceFrom
-    plusPriceFrom = int(round((priceTo - priceFrom)/6))
-    for i in range(6):
+    plusPriceFrom = int(round((priceTo - priceFrom)/10))
+    for i in range(10):
         changedPrice += plusPriceFrom
         priceFromTo.append([priceFrom, changedPrice])
         priceFrom += plusPriceFrom
@@ -49,6 +49,7 @@ def collect_data(priceFrom, priceTo):
     for i in objects:
         skin_price = i.get('price').get('USD')
         skin = i.get('title')
+        discount = f"Discount -{i.get('discount')}%"
         if i.get('extra').get('stickers') is not None:
             sTitles = ''
             sTotal = 0
@@ -59,10 +60,10 @@ def collect_data(priceFrom, priceTo):
                         if j['name'] in line:
                             sTotal = float(sTotal) + float(line[1])      
                 sTitles += j['name'] + '\n'
-            if sTotal >= min_total_sticker:
+            if sTotal >= min_total_sticker and i.get('discount') >= 15:
                 with open('WeaponTitles.txt', 'a', encoding="utf-8") as file:
-                    file.write(f"{skin_price} руб   {i.get('title')}\nfloat={i.get('extra').get('floatValue')} \n{sTitles}\nStickers price: {sTotal}\n\n")
-                print(f"{skin_price} руб   {i.get('title')}\nfloat={i.get('extra').get('floatValue')} \n{sTitles}\nStickers price: {sTotal}\n")
+                    file.write(f"{skin_price} руб   {i.get('title')}\nfloat={i.get('extra').get('floatValue')} \n{sTitles}\nDiscount -{i.get('discount')}%\nStickers price: {sTotal}\n\n-----------------------------------------------------------------------------------------------------\n\n")
+                print(f"{skin_price} руб   {i.get('title')}\nfloat={i.get('extra').get('floatValue')} \n{sTitles}\nDiscount -{i.get('discount')}%\nStickers price: {sTotal}\n-----------------------------------------------------------------------------------------------------\n\n")
                 #notify(skin, skin_price, sTotal)
 
 # function to clear saved info in Weapon Titles
