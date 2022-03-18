@@ -1,2 +1,2 @@
 # dmarket_bot
-I've just started working on Dmarket Bot to get information about items
+That's working but Dmarket blocked Russians users. That's sad. I had money there
